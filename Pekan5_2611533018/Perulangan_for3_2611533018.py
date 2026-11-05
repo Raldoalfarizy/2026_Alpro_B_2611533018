@@ -8,7 +8,7 @@ ulang_3018 = int(input("Masukkan jumlah perulangan = "))
 jumlah_3018 = 0
 for i in range(1, ulang_3018 + 1):
     print(i, end = " ")
-    jumlah_3018 = jumlah_3018 + i
+    jumlah_3018 += i
 
     if i < ulang_3018:
         print("+", end = " ")
